@@ -1,6 +1,6 @@
 # GPT-Request-SQL
 
-# WEBSITE
+## Website
 
 - **https://jphed.github.io/GPT-Request-SQL/**
   
