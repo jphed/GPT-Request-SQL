@@ -8,6 +8,8 @@ window.onload = function() {
   
     // Predefined SQL script content
     const predefinedSQL = `
+    Tambien utiliza USE covid; para seleccionar la base de datos covid al comiendo
+  
   -- MySQL Workbench Forward Engineering
   
   SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0;
