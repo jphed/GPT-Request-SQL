@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SQL Generator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="container">
+        <!-- Instructions Label -->
+        <div id="instructions">
+            <h3>How It Works:</h3>
+            <p>1. Write down the problem you want to solve.</p>
+            <p>2. Click "Generate" to create a solution.</p>
+            <p>3. Copy the generated solution and paste it into ChatGPT (or any AI you want to use).</p>
+            <p>4. You'll receive a response (though it might not always work perfectly).</p>
+
+        </div>
+
+        <textarea id="sqlProblem" placeholder="Describe your SQL problem here..."></textarea>
+
+        <div>
+            <button id="copyButton">Generate</button>
+            <button id="clearButton">Clear</button>
+        </div>
+
+        <p id="status"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
