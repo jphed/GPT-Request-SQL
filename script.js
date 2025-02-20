@@ -9,8 +9,7 @@ window.onload = function() {
     // Predefined SQL script content
     const predefinedSQL = `
   
-  -- MySQL Workbench Forward Engineering
-  Tambien utiliza USE covid; para seleccionar la base de datos covid al comienzo
+  -- Tambien utiliza USE covid; para seleccionar la base de datos covid al comienzo
   
   SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0;
   SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0;
