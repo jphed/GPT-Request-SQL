@@ -1,5 +1,9 @@
 # GPT-Request-SQL
 
+## Website
+
+- **https://jphed.github.io/GPT-Request-SQL/**
+  
 **GPT-Request-SQL** is a tool that helps generate SQL queries using ChatGPT (not the API). It currently works only with a COVID-19 database.
 
 ## Features
