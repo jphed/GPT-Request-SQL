@@ -9,7 +9,7 @@ window.onload = function() {
     // Predefined SQL script content
     const predefinedSQL = `
   
-  -- Tambien utiliza USE covid; para seleccionar la base de datos covid al comienzo
+  -- Tambien utiliza USE covid; para seleccionar la base de datos covid al comienzo. Elimina sangria y limita a 50
   
   SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0;
   SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0;
